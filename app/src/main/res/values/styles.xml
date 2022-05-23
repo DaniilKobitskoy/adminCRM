@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LoadingTitle" parent="">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WhiteAccent">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="CheckBoxes" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/app_grey</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <style name="Title_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/cyber_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Next_Shift_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Big_Red_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/main_red</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/double_normal_indent</item>
+        <item name="android:layout_marginTop">@dimen/big_indent</item>
+    </style>
+
+
+    <style name="Big_White_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="White_Error_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Tab_little_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">@dimen/little_margin1</item>
+        <item name="android:layout_marginBottom">@dimen/little_margin1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Name_Of_Task">
+        <item name="android:textColor">@color/main_red</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Normal_Red_text" parent="Big_White_text">
+        <item name="android:textColor">@color/main_red</item>
+    </style>
+
+    <style name="Little_White_text" parent="Big_White_text">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="tasks_titles">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginStart">@dimen/top_title_indent</item>
+        <item name="android:textColor">@color/main_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Event_ConstraintLayout" parent="Not_Main_ConstraintLayout">
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/shadow_white_block</item>
+        <item name="android:layout_marginLeft">@dimen/normal_indent</item>
+        <item name="android:layout_marginRight">@dimen/normal_indent</item>
+    </style>
+
+    <style name="Not_Main_ConstraintLayout">
+        <item name="android:isScrollContainer">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/selector_height</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:layout_marginTop">@dimen/little_indent</item>
+        <item name="android:paddingBottom">@dimen/padding_input</item>
+        <item name="android:paddingTop">@dimen/padding_input</item>
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+        <item name="android:background">@drawable/shadow_white_block</item>
+    </style>
+
+    <style name="Not_Main_Grey">
+        <item name="android:isScrollContainer">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/selector_height</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:layout_marginTop">@dimen/little_indent</item>
+        <item name="android:paddingBottom">@dimen/padding_input</item>
+        <item name="android:paddingTop">@dimen/padding_input</item>
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+        <item name="android:background">@drawable/shadow_grey_block</item>
+    </style>
+
+    <style name="Comment_ConstraintLayout">
+        <item name="android:isScrollContainer">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/comment_height</item>
+        <item name="android:minHeight">@dimen/comment_height</item>
+        <item name="android:layout_marginTop">@dimen/little_indent</item>
+        <item name="android:paddingBottom">@dimen/padding_input</item>
+        <item name="android:paddingTop">@dimen/padding_input</item>
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+        <item name="android:background">@drawable/shadow_dark_block</item>
+    </style>
+
+    <style name="Not_Main_ConstraintLayout_blue_grey">
+        <item name="android:isScrollContainer">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/selector_height</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:layout_marginTop">@dimen/little_indent</item>
+        <item name="android:paddingBottom">@dimen/padding_input</item>
+        <item name="android:paddingTop">@dimen/padding_input</item>
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+        <item name="android:background">@drawable/shadow_dark_block</item>
+    </style>
+
+    <style name="Not_Main_ConstraintLayout_blue_grey_main">
+        <item name="android:isScrollContainer">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/normal_indent</item>
+        <item name="android:layout_marginRight">@dimen/normal_indent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:layout_marginTop">@dimen/little_indent</item>
+        <item name="android:paddingBottom">@dimen/padding_input</item>
+        <item name="android:paddingTop">@dimen/padding_input</item>
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+        <item name="android:background">@drawable/shadow_dark_block</item>
+    </style>
+
+    <style name="Constraint_With_Border">
+        <item name="android:isScrollContainer">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:layout_marginTop">@dimen/little_indent</item>
+        <item name="android:paddingBottom">@dimen/padding_input</item>
+        <item name="android:paddingTop">@dimen/padding_input</item>
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+        <item name="android:background">@drawable/background_with_border</item>
+    </style>
+
+    <style name="Header_Top_ConstraintLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_marginRight">@dimen/little_indent</item>
+        <item name="android:layout_marginLeft">@dimen/little_indent</item>
+        <item name="android:background">@drawable/red_bottom_line</item>
+        <item name="android:paddingTop">@dimen/margin2dp</item>
+        <item name="android:paddingBottom">@dimen/margin2dp</item>
+    </style>
+
+    <style name="Vertical_Wrap_Linear">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginRight">@dimen/normal_indent</item>
+    </style>
+
+    <style name="Little_Red_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/main_red</item>
+        <item name="android:layout_marginBottom">@dimen/little_indent</item>
+    </style>
+    <style name="Little_Tab_text">
+        <item name="android:paddingEnd">@dimen/padding_tab_kpi</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/main_red</item>
+        <item name="android:layout_marginBottom">@dimen/little_indent</item>
+    </style>
+    <style name="dialogTimeStyle" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="colorAccent">@color/main_red</item>
+        <item name="android:textColorHighlight">@color/main_red</item>
+        <item name="colorPrimary">@color/main_red</item>
+        <item name="android:timePickerMode">spinner</item>
+        <item name="android:headerBackground">@color/main_red</item>
+        <item name="android:numbersTextColor">@color/main_red</item>
+        <item name="android:numbersSelectorColor">@color/main_red</item>
+        <item name="android:numbersBackgroundColor">@color/main_red</item>
+        <item name="android:textColor">@color/main_red</item>
+        <item name="colorControlActivated">@color/main_red</item>
+        <item name="android:textColorPrimary">@color/main_red</item>
+        <item name="android:textColorSecondary">@color/main_red</item>
+        <item name="android:colorAccent">@color/main_red</item>
+        <item name="android:buttonTint">@color/main_red</item>
+        <item name="colorControlHighlight">@color/main_red</item>
+        <item name="android:windowBackground">@color/main_red</item>
+        <item name="android:buttonBarNegativeButtonStyle">@color/main_red</item>
+        <item name="android:buttonBarPositiveButtonStyle">@color/main_red</item>
+        <item name="android:buttonBarNeutralButtonStyle">@color/main_red</item>
+        <item name="android:amPmTextColor">@color/main_red</item>
+    </style>
+
+    <style name="ImageItemShape" parent="">
+        <item name="cornerSize">10%</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>
+
+
+

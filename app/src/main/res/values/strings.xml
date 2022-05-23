@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">CyberAdmin</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_title">Cyber Admin</string>
+    <string name="loading_wait_text">Пожалуйста, подождите</string>
+    <string name="send_phone_text">Отправить</string>
+    <string name="submit_update">Отправить</string>
+    <string name="submit_edit_update">Изменить</string>
+    <string name="enter_text">Войти</string>
+    <string name="your_phone">Введите номер телефона</string>
+    <string name="code_text">Введите последние 4 цифры звонившего номера</string>
+    <string name="code_question">Не поступил звонок?</string>
+    <string name="resend_code"><u>Позвонить еще раз</u></string>
+    <string name="policy_text">Принимаю условия политики конфиденциальности</string>
+    <string name="personal_text">Согласен на обработку персональных данных</string>
+    <string name="history_is_empty">История пуста</string>
+    <string name="cashback_title">Возврат средств </string>
+    <string name="check_number">Номер чека </string>
+    <string name="phone_number">Номер телефона </string>
+    <string name="sum">Сумма </string>
+    <string name="reason_comment">Причина (комментарий) </string>
+    <string name="title_tasks">Задачи</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Главная</string>
+    <string name="title_updates">Обновление</string>
+    <string name="title_z_reports">Касса</string>
+    <string name="title_calendar">График работы</string>
+    <string name="current_tasks">ТЕКУЩИЕ ЗАДАЧИ </string>
+    <string name="new_tasks_not_found">Нет новых задач</string>
+    <string name="tasks_resolved">ВЫПОЛНЕННЫЕ ЗАДАЧИ</string>
+    <string name="resolved_tasks_not_found">Нет завершённых задач</string>
+    <string name="not_have_club1">Вы не добавлены ни к одному\nкиберспортивному клубу.</string>
+    <string name="not_have_club2">Обратитесь к руководству вашего клуба\nили свяжитесь с технической поддержкой.</string>
+    <string name="not_have_club_exit">Выход</string>
+    <!--errors-->
+    <string name="incorrect_phone_number">Номер телефона указан некорректно</string>
+    <string name="not_checked_policy">Требуется согласие с политикой конфиденциальности</string>
+    <string name="not_checked_personal_data">Требуется согласие с условиями обработки персональных данных</string>
+    <string name="verification_code_is_empty">Вы не указали последние 4 цифры звонившего номера</string>
+    <string name="incorrect_code">Вы неверно указали последние цифры звонившего номера </string>
+    <string name="access_denied">К сожалению, вы не закреплены за клубом</string>
+    <string name="images_error">Произошла ошибка. Попробуйте еще раз.</string>
+    <string name="group_error">Необходимо указать группу оборудования</string>
+    <string name="type_error">Необходимо указать тип работ</string>
+    <string name="start_type_error">Необходимо указать время начала работ</string>
+    <string name="finish_type_error">Необходимо указать время окончания работ</string>
+    <string name="wait_error">Подождите. Данные отправляются</string>
+    <string name="not_edited_error">Вы ничего не изменили</string>
+    <string name="z_report_error">Укажите сумму z-отчета </string>
+    <string name="cash_error">Укажите сумму наличного рассчета </string>
+    <string name="card_error">Укажите сумму безналичного рассчета </string>
+    <string name="bar_error">Укажите сумму по бару </string>
+    <string name="consumption_error">Укажите сумму расхода </string>
+    <string name="cashback_error">Укажите сумму возврата </string>
+    <string name="balance_error">Укажите сумму остатка </string>
+    <string name="z_compensation_error">Укажите сумму Z-компенсации</string>
+    <string name="check_number_error">Укажите номер чека </string>
+    <string name="phone_number_error">Номер телефона некорректный </string>
+    <string name="sum_error">Укажите сумму возврата </string>
+    <string name="comment_error">Укажите комментарий </string>
+    <string name="error_connection">Проблемы с интернетом. Проверьте подключение и повторите попытку </string>
+    <!--/errors-->
+    <string name="main_screen">Главная</string>
+    <string name="next_shift">Следующая смена:</string>
+    <string name="not_assigned">Не назначена</string>
+    <string name="tasks">Задачи</string>
+    <string name="no_new_tasks">Нет новых задач</string>
+    <string name="kpi">Отчет за текущую смену</string>
+    <string name="z_reports">Касса</string>
+    <string name="fines">Штрафы</string>
+    <string name="update">Обновление</string>
+    <string name="no_new_z_reports">Нет данных о предыдущих отчетах</string>
+    <string name="no_new_update">Нет обновлений</string>
+    <string name="no_new_fines">Штрафов нет</string>
+    <string name="update_report_admin">Отчет обновление</string>
+    <string name="update_history_title">Обновление (история)</string>
+    <string name="fines_title">Штрафы</string>
+    <string name="update_zhistory_title">Касса (история)</string>
+    <string name="z_report_text">Z-отчет</string>
+    <string name="task_title">Задача </string>
+    <string name="created_date_title">Дата начала: </string>
+    <string name="description_title">Описание </string>
+    <string name="deadline_date_title">Дата окончания: </string>
+    <string name="date">Дата:</string>
+    <string name="action">Действие:</string>
+    <string name="time_start_picker">Время начала</string>
+    <string name="time_finish_picker">Время окончания</string>
+    <string name="comment_hint">Комментарий</string>
+    <string name="add_photo">Добавить фото</string>
+    <string name="admins_action_in_shift">Действие администратора на смене</string>
+    <string name="last_update_group">Последняя обновленная группа:</string>
+    <string name="no_data">Нет данных</string>
+    <string name="equipment_group">Группа оборудования</string>
+    <string name="indicators">Показатели</string>
+    <string name="plan_targets">План/Целевой показатель</string>
+    <string name="fact_indicators">Фактический показатель</string>
+    <string name="implementation">Выполнение</string>
+    <string name="premium_target">Премия/Целевой показатель</string>
+    <string name="indicators_weight">Вес показателя</string>
+    <string name="premium_total">Премия к выплате</string>
+    <string name="amount_per_shift">Сумма за смены:</string>
+    <string name="zero">0</string>
+    <string name="rub">₽</string>
+    <string name="advance_payment">Аванс:</string>
+    <string name="fine">Штраф:</string>
+    <string name="total">Итого:</string>
+    <string name="no_comments">Нет комментариев</string>
+    <string name="update_has_been_updated">Отчет успешно отправлен</string>
+    <string name="task_has_been_sent">Задача успешно отредактирована</string>
+    <string name="update_edit_has_been_sent">Отчет успешно изменен</string>
+    <string name="action_title">Действие: </string>
+    <string name="group_title">Группа: </string>
+    <string name="date_title">Дата: </string>
+    <string name="z_report_title">Отчет касса </string>
+    <string name="z_report">Z-отчет </string>
+    <string name="cash_payments">Наличный рассчет </string>
+    <string name="cashless_payments">Безналичный рассчет </string>
+    <string name="bar">Бар </string>
+    <string name="consumption">Расход </string>
+    <string name="cashback">Возврат </string>
+    <string name="balance">Остаток (наличные)  </string>
+    <string name="z_compensation">Z-компенсация </string>
+    <string name="send_z_report">Отправить </string>
+    <string name="send_button">Отправить </string>
+    <string name="button_resolve_task">Выполнить </string>
+    <string name="button_update_task">Изменить </string>
+    <string name="task_has_been_updated">Задача успешно отредактирована </string>
+    <string name="z_report_template">Z-отчёт </string>
+    <string name="cashback_ok">Отчет о возврате успешно отправлен </string>
+    <string name="spinner_select_text">Выбрать </string>
+    <string name="spinner_select_admin">Выберите администратора </string>
+    <string name="created_text">Создана </string>
+    <string name="deadline_text">Срок выполнения </string>
+    <string name="reason_text">Причина: </string>
+    <string name="sum_fine">Сумма: </string>
+    <string name="notification_title">Уведомления</string>
+    <string name="notification_new"><b>Новое </b></string>
+    <string name="day_work"><b>День </b></string>
+    <string name="night_work"><b>Ночь </b></string>
+    <string name="about_title">Помощь</string>
+    <string name="dev_text">Разработано в студии мобильной\nразработки</string>
+    <string name="version">Версия </string>
+    <string name="support_contact">Связаться с поддержкой </string>
+    <string name="admin_notification">Памятка для администраторов </string>
+    <string name="theme_of_application">Тема приложения: Дневная / Ночная</string>
+    <string name="policy_button"><u>Политика конфиденциальности</u> </string>
+    <string name="exit_text">Выход</string>
+    <string name="verify_title">Регистрация</string>
+    <string name="verification_phone">На ваш телефон</string>
+    <string name="verification_phone_call">поступит звонок с незнакомого номера</string>
+    <string name="exitTitle">Выход из приложения</string>
+    <string name="exitMessage">Вы действительно хотите выйти из приложения?</string>
+    <string name="exitYes">Да</string>
+    <string name="exitNo">Нет</string>
+    <string name="super_visor">Проверка администратора</string>
+    <string name="authorization">Авторизация</string>
+    <string name="dont_have_club">Нет клуба</string>
+    <string name="edit_task_label">Редактирование задачи</string>
+    <string name="edit_update_label">Редактирование обновлений</string>
+    <string name="edit_z_report_label">Редактирование кассы</string>
+    <string name="read_edit_task">Просмотр задач</string>
+    <string-array name="actions">
+        <item>Уборка</item>
+        <item>Обновление</item>
+    </string-array>
+    <!--calendar -->
+    <string name="material_calendar_monday">Пн</string>
+    <string name="material_calendar_tuesday">Вт</string>
+    <string name="material_calendar_wednesday">Ср</string>
+    <string name="material_calendar_thursday">Чт</string>
+    <string name="material_calendar_friday">Пт</string>
+    <string name="material_calendar_saturday">Сб</string>
+    <string name="material_calendar_sunday">Вс</string>
+    <array name="material_calendar_months_array">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </array>
+    <string name="material_calendar_today_button">Сегодня</string>
+    <string name="material_calendar_positive_button">Ок</string>
+    <string name="material_calendar_negative_button">Отмена</string>
+    <!--firebase-->
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">CyberAdmin</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Не удалось подписаться на уведомления</string>
+    <string name="fcm_message">Уведомление от Cyber Admin</string>
+</resources>
