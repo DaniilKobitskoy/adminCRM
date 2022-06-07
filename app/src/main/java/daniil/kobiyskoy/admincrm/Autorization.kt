@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import daniil.kobiyskoy.admincrm.client.RetrofitClient
 import daniil.kobiyskoy.admincrm.common.Common
+import daniil.kobiyskoy.admincrm.data.LogPas
 import daniil.kobiyskoy.admincrm.data.autorizhation_data
 import daniil.kobiyskoy.admincrm.databinding.AutorizationMainBinding
 import daniil.kobiyskoy.admincrm.inter.RetrofitServices
@@ -44,21 +46,25 @@ _binding = AutorizationMainBinding.inflate(inflater, container, false)
             var login: String = binding.login.getText().toString()
             var password: String = binding.password.getText().toString()
 
-            callserver1()
+            callserver1(l = login, p = password)
         }
 
     }
 
-    private fun callserver1() {
-//        login: String, password: String
-//        login = login, password = password
-        mService.autorization().enqueue(object : Callback<MutableList<autorizhation_data>> {
+    private fun callserver1(l: String, p: String) {
+        var login: String = l
+        Log.d("Login", login)
+        var password = p
+        Log.d("Password", password)
+
+        mService.autorization(request = LogPas(login = login, password = password)).enqueue(object : Callback<MutableList<autorizhation_data>> {
             override fun onFailure(call: Call<MutableList<autorizhation_data>>, t: Throwable) {
                 Log.d("Log_fail", "ошибка")
-            }
 
+            }
             override fun onResponse(call: Call<MutableList<autorizhation_data>>, response: Response<MutableList<autorizhation_data>>) {
 Log.d("Log", "успешно")
+
             }
         })
     }
